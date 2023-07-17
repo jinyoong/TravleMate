@@ -9,6 +9,10 @@ function Analytics() {
     
     return(
         <>
+            <div className="flex justify-center">
+            <img src="TravelMate.png" className="w-[200px] text-center"></img>
+
+            </div>
             <div>
                 <div className="font-bold text-[20px] mx-[20px] mt-[10px]">
                     <div>당신의 스타일을</div>
@@ -22,7 +26,7 @@ function Analytics() {
             </div>
 
             <Link to="/analytics/ing">
-                <div className="w-[320px] mx-[20px] bg-gradient-to-r from-[#844BF5] to-[#6AD3CD] flex justify-center items-center h-[50px] rounded-[4px] mt-[24px]">
+                <div className="w-[320px] mx-[20px] bg-gradient-to-r from-[#844BF5] to-[#6AD3CD] flex justify-center items-center h-[50px] rounded-[4px] mt-[24px] mb-[40px]">
                     <div className="text-white font-bold text-[20px]">확인</div>
                 </div>
             </Link>

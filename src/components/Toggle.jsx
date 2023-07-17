@@ -17,7 +17,7 @@ function Toggle() {
   }
 
   return(
-    <div className="h-[40px] flex justify-between">
+    <div className="h-[40px] flex justify-between mx-[10px]">
         <button 
           onClick={() => {
             toggleButton("post")
