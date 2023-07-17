@@ -15,11 +15,11 @@ function Toggle() {
   }
 
   return(
-    <div className="h-[50px] flex justify-between">
+    <div className="h-[40px] mx-[10px] mt-[10px] flex justify-between">
       <button 
         onClick={() => toggleButton("post")} 
         className={`
-          w-[160px]
+          w-[168px]
           rounded-t-lg
           border-solid
           border-t-[1.5px]
@@ -35,7 +35,7 @@ function Toggle() {
       <button 
         onClick={() => toggleButton("place")} 
         className={`
-          w-[160px]
+          w-[168px]
           rounded-t-lg
           border-solid
           border-t-[1.5px]

@@ -1,5 +1,5 @@
 import React from "react";
-import Placecard from "../component/Placecard";
+import Placecard from "../components/Placecard";
 
 function Place() {
   return(
