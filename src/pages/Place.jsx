@@ -1,12 +1,25 @@
 import React from "react";
+import Placecard from "../component/Placecard";
 
 function Place() {
   return(
     <>
-      <div>
-        어아럼ㄴ이ㅏㄹㄴ이라ㅓㅁㄴㅇㄹ
+      <div className="mx-[20px] rounded-[10px] flex items-center mt-[10px]">
+        <div className="text-white font-bold bg-gradient-to-r from-[#844BF5] to-[#6AD3CD] px-[4px] py-[1px] rounded-[10px] mr-[10px]">
+          10km
+        </div>
+        <div className="text-white font-bold bg-gradient-to-r from-[#844BF5] to-[#6AD3CD] px-[4px] py-[1px] rounded-[10px]">
+          남성
+        </div>
       </div>
-      <div>agasdfasdf</div>
+      <Placecard/>
+      <Placecard/>
+      <Placecard/>
+      <Placecard/>
+      <Placecard/>
+      <Placecard/>
+      <Placecard/>
+      <Placecard/>
     </>
   )
 }

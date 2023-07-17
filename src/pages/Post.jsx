@@ -16,7 +16,7 @@ function Post() {
       <div>
         어아럼ㄴ이ㅏㄹㄴ이라ㅓㅁㄴㅇㄹ{myData}
       </div>
-      <button onClick={dataHandler}>
+      <button onClick={dataHandler} className="bg-red-50 mt-6">
         버튼
       </button>
     </>
