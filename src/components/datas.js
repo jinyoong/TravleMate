@@ -70,4 +70,40 @@ const postDatas = [
 	"ch":["flex","flex","flex"]
 	}
 ]
-export { postDatas }
+
+const myPageData = {
+	"ls":[{"target":"일본",
+	"name":"푸바오귀여오",
+	"title":"같이 오사카성 가실분??",
+	"content":"저는 혼자 여행할 예정인 20대 대학생입니다. 어쩌다보니 혼자 여행을 하게 되어서 오사카성에서 같이 구경하고 맛집에 가고 싶은데 금액 적인 부담때문에 들어가기가 어렵더라고요. 서로 사진 찍어주면서 맛있는거 먹으러 가실 분 찾아요~",
+	"date":"2023.03.13 - 2023.03.13",
+	"cnt":"2",
+	"age":"20대",
+	"gender":"남",
+	"profile":"https://i.namu.wiki/i/mc0otKKHQaYIe-fmw4GBdlIvnRdBjVM4ynPyflPCA49IbfRpABOJK_JImqk7czRiwDwpfSsmAq3gQX7s3UsKVQ.webp",
+	"ch":["flex","flex","flex"],
+	"img":"https://i.namu.wiki/i/hvxKPzx-v6vuwDNUqbTcxdSVxzrM3QJM_T8t5JHVJOAyIoCIXZWwe5orpOvclWvFbWnsScPS9Htr-MB26qWspAkGqgvmfCniL99I_xPDLsq5TW5HRXi2bL4BfHiGfHIn1nBAkgojl2nSiRz5Kv-XcA.webp"
+	},{"target":"일본",
+	"name":"푸바오귀여오",
+	"title":"같이 유니버셜스튜디오 가실분??",
+	"content":"저는 혼자 여행할 예정인 20대 대학생입니다. 어쩌다보니 혼자 여행을 하게 되어서 유니버셜 스튜디오에서 같이 놀고 싶은데 혼자라 외롭더라고요. 서로 사진 찍어주면서 맛있는거 먹으러 가실 분 찾아요~",
+	"date":"2023.03.11 - 2023.03.11",
+	"cnt":"2",
+	"age":"20대",
+	"gender":"남",
+	"profile":"https://i.namu.wiki/i/mc0otKKHQaYIe-fmw4GBdlIvnRdBjVM4ynPyflPCA49IbfRpABOJK_JImqk7czRiwDwpfSsmAq3gQX7s3UsKVQ.webp",
+	"ch":["flex","flex","flex"],
+	"img":"https://img1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/wlQ/image/HCY37sbVZsC3pSSn0EsjNER0EGg.jpg"
+	}],
+	"name":"푸바오귀여오",
+	"age":"24",
+	"gender":"m",
+	"profile":"https://i.namu.wiki/i/mc0otKKHQaYIe-fmw4GBdlIvnRdBjVM4ynPyflPCA49IbfRpABOJK_JImqk7czRiwDwpfSsmAq3gQX7s3UsKVQ.webp",
+	"now":"2023.03.13 12:05",
+	"ch":["flex","flex","flex"],
+	"intro":"안녕하세요 저는 익스트림 스포츠를 좋아합니다. 같이 여행 가실 분을 찾고 있습니다. 게획적인 여행을 선호하고 해외 여행이 처음이라 같이 가실 분을 구해요.",
+	"sns":"@hana_financial",
+	"tl":[["https://i.namu.wiki/i/uPDCkQv1zGpaEdmeqmEDRIM3nMyRD2BslQUouPpxpI5M-PkGdmxPwxFJvu9RCUUVYg2XOH4rfedfkxhnDqfumw.svg","2021.03.13 - 2021.03.20"],["https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg","2022.03.13 - 2022.03.20"],["https://i.namu.wiki/i/uPDCkQv1zGpaEdmeqmEDRIM3nMyRD2BslQUouPpxpI5M-PkGdmxPwxFJvu9RCUUVYg2XOH4rfedfkxhnDqfumw.svg","2022.06.13 - 2022.06.20"]]
+}
+
+export { postDatas, myPageData }
