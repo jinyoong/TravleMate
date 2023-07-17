@@ -1,5 +1,7 @@
 import React from "react";
 import { createBrowserRouter } from "react-router-dom"
+import Analytics from "./pages/Analytics";
+import AnalyticsIng from "./pages/AnalyticsIng";
 import Place from "./pages/Place";
 import Post from "./pages/Post";
 import PostDetail from "./pages/PostDetail";
@@ -27,7 +29,15 @@ const router = createBrowserRouter([
   {
     path: '/move',
     element: <Move/>
-  }
+  },
+  {
+    path: '/analytics',
+    element: <Analytics />
+  },
+  {
+    path: '/analytics/ing',
+    element: <AnalyticsIng />
+  },
 ])
 
 export default router;
