@@ -1,8 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function Footer() {
-
+  const navigate = useNavigate();
   return (
     <div className="flex flex-row h-[74px] relative justify-between bottom-0">
       <div className="flex justify-center items-center rounded-tr-[10px] border-[#D9D9D9] border-t-2 w-[143px]">
@@ -14,7 +14,8 @@ function Footer() {
         </div>
       </Link>
       {/* <Link> */}
-        <div className="flex justify-center items-center rounded-tl-[10px] border-[#D9D9D9] border-t-2 w-[143px]">
+        <div className="flex justify-center items-center rounded-tl-[10px] border-[#D9D9D9] border-t-2 w-[143px]"
+          onClick={() => navigate('/mypage')}>
           <img src="Mypage.png" className="w-[24px]"></img>
         </div>
       {/* </Link> */}

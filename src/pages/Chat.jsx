@@ -24,11 +24,12 @@ const ChatBubble = ({ text, isMe, name}) => {
 
 function Chat() {
   const messages = [
-    { text: '안녕하세요!', isMe: false, name:"mark" },
+    { text: '안녕하세요!', isMe: false, name:"푸바오귀여워" },
+    { text: '안녕하세요!', isMe: false, name:"여행덕후" },
     { text: '안녕하세요!', isMe: true, name:"me" },
-    { text: '오늘 날씨가 참 좋네요.', isMe: false, name:"mark" },
+    { text: '오늘 날씨가 참 좋네요.', isMe: false, name:"여행덕후" },
     { text: '날씨가 좋네요.', isMe: true, name:"me" },
-    { text: '저도 반갑습니다!', isMe: false, name:"Tony" },
+    { text: '저도 반갑습니다!', isMe: false, name:"여행덕후" },
   ];
   
   const navigate = useNavigate();

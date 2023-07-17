@@ -31,8 +31,8 @@ function Toggle() {
             border-l-[1.5px]
             border-r-[1.5px]
             border-[#8449F5]
-            ${toggle === "post" ? "bg-[#8449F5]" : ""}
-            ${toggle === "post" ? "text-white" : "text-black"}
+            ${toggle === "place" ? "bg-[#8449F5]" : ""}
+            ${toggle === "place" ? "text-white" : "text-black"}
             font-bold`}
         >
           Post
@@ -50,8 +50,8 @@ function Toggle() {
             border-l-[1.5px]
             border-r-[1.5px]
             border-[#8449F5]
-            ${toggle === "place" ? "bg-[#8449F5]" : ""}
-            ${toggle === "place" ? "text-white" : "text-black"}
+            ${toggle === "post" ? "bg-[#8449F5]" : ""}
+            ${toggle === "post" ? "text-white" : "text-black"}
             font-bold`}
         >
           Place
