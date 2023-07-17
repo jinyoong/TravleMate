@@ -15,7 +15,14 @@ const temp2State = atom({
   effects_UNSTABLE: [persistAtom],
 })
 
+const toggleState = atom({
+  key: "toggleState",
+  default: "post",
+  effects_UNSTABLE: [persistAtom],
+})
+
 export {
   tempState,
-  temp2State
+  temp2State,
+  toggleState,
 }
