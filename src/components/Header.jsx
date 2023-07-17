@@ -13,7 +13,11 @@ function Header() {
         className="w-[20px] h-[20px]"
         onClick={() => navigate(-1)}
       />
-      <div className="font-bold text-[24px]">TravelMate</div>
+      {/* <div className="font-bold text-[24px]">TravelMate</div> */}
+      <div className="flex justify-center">
+            <img src="TravelMate.png" className="w-[200px] text-center"></img>
+
+            </div>
       <div className="w-[20px] h-[10px] bg-white"></div>
     </header>
   )
