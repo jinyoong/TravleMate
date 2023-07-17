@@ -27,9 +27,16 @@ const modalState = atom({
   effects_UNSTABLE: [persistAtom],
 })
 
+const paidModalState = atom({
+  key: "paidModalState",
+  default: false,
+  effects_UNSTABLE: [persistAtom],
+})
+
 export {
   tempState,
   temp2State,
   toggleState,
   modalState,
+  paidModalState,
 }

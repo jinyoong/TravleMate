@@ -7,6 +7,7 @@ import Post from "./pages/Post";
 import PostDetail from "./pages/PostDetail";
 import Chat from "./pages/Chat";
 import Move from "./pages/Move";
+import ChatEnd from "./pages/ChatEnd";
 
 
 const router = createBrowserRouter([
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: '/chat',
     element: <Chat/>
+  },
+  {
+    path: '/chatend',
+    element: <ChatEnd/>
   },
   {
     path: '/move',
