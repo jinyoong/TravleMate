@@ -24,7 +24,7 @@ function Toggle() {
             navigate("/")
           }} 
           className={`
-            w-[160px]
+            w-[168px]
             rounded-t-lg
             border-solid
             border-t-[1.5px]
@@ -43,7 +43,7 @@ function Toggle() {
             navigate('/place')
           }} 
           className={`
-            w-[160px]
+            w-[168px]
             rounded-t-lg
             border-solid
             border-t-[1.5px]
