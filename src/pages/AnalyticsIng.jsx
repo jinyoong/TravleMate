@@ -1,8 +1,11 @@
 import React, {useState, useEffect} from "react";
 import { useNavigate } from "react-router-dom";
+import { useRecoilState } from "recoil";
+import { toggleState } from "../atoms";
 
 function AnalyticsIng() {
 
+    const [togState, setTogState] = useRecoilState(toggleState);
     const [percent, setPercent] = useState(0)
     const navigate  = useNavigate();
 
@@ -13,6 +16,7 @@ function AnalyticsIng() {
             if (newProgress >= 100) {
               clearInterval(timer);
               // 페이지 이동 로직을 여기에 추가
+              setTogState("post");
               navigate('/');
             }
             return newProgress;

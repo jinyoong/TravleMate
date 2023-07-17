@@ -1,18 +1,21 @@
-import React, { useState } from "react";
+import React from "react";
 import { useRecoilState } from "recoil";
 import { applyModalState, statusModalState } from "../atoms";
 import modalData from "../components/modalData";
 import ApplicantsListItem from "./ApplicantsListItem";
+import { useNavigate } from "react-router-dom";
 
 function SecondModal() {
 
   const data = modalData;
+  const navigate = useNavigate();
   const [apply, setApply] = useRecoilState(applyModalState);
   const [status, setStatus] = useRecoilState(statusModalState);
 
   function clickEvent() {
     setApply(false);
     setStatus(false);
+    navigate('/chat');
   }
 
   return (

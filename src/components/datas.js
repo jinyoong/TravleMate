@@ -67,7 +67,7 @@ const postDatas = [
 	"gender":"남",
 	"profile":"https://weekly.chosun.com/news/photo/201006/206_1.jpg",
 	"now":"2023.07.12 12:05",
-	"ch":["flex","flex","flex"]
+	"ch":["flex","적극적인","무계획"]
 	}
 ]
 
@@ -81,7 +81,7 @@ const myPageData = {
 	"age":"20대",
 	"gender":"남",
 	"profile":"https://i.namu.wiki/i/mc0otKKHQaYIe-fmw4GBdlIvnRdBjVM4ynPyflPCA49IbfRpABOJK_JImqk7czRiwDwpfSsmAq3gQX7s3UsKVQ.webp",
-	"ch":["flex","flex","flex"],
+	"ch":["flex","적극적인","무계획"],
 	"img":"https://i.namu.wiki/i/hvxKPzx-v6vuwDNUqbTcxdSVxzrM3QJM_T8t5JHVJOAyIoCIXZWwe5orpOvclWvFbWnsScPS9Htr-MB26qWspAkGqgvmfCniL99I_xPDLsq5TW5HRXi2bL4BfHiGfHIn1nBAkgojl2nSiRz5Kv-XcA.webp"
 	},{"target":"일본",
 	"name":"푸바오귀여오",
