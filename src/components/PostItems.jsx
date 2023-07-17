@@ -5,7 +5,7 @@ import PostItem from "./PostItem";
 function PostItems() {
 
   return (
-    <div className="w-[340px] h-[532px] mx-[10px] mt-[10px]">
+    <div className="w-[340px] h-[542px] mx-[10px] mt-[10px]">
       <div className="w-[340px] rounded-lg border-solid border-[1.5px] h-[30px] mb-[10px] flex">
         <img 
           src={process.env.PUBLIC_URL + "/search.png"} 
@@ -32,7 +32,7 @@ function PostItems() {
       <hr />
       <div className="h-[459px] overflow-auto scroll-pr-[-20px]">
       {postDatas.map((postData, index) => {
-        return <PostItem key={index} postData={postData}/>
+        return <PostItem key={index} postData={postData} beforeRouter={"postItem"}/>
       })}
       </div>
     </div>

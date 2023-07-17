@@ -9,9 +9,7 @@ function Place() {
 
   return(
     <>
-      <div className="mx-[10px]">
-        <Toggle />
-      </div>
+      <Toggle />
       <div className="mx-[20px] rounded-[10px] flex items-center mt-[10px]">
         <div className="text-white font-bold bg-[#844BF5] px-[4px] py-[1px] rounded-[10px] mr-[10px]">
           10km

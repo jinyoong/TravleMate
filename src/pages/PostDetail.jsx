@@ -5,19 +5,25 @@ import PostDetailImg from "../components/PostDetailmg";
 import PostDetailContent from "../components/PostDetailContent";
 import PostModal from "../components/PostModal";
 import { useRecoilValue } from "recoil";
-import { modalState } from "../atoms";
+import { applyModalState } from "../atoms";
+import { statusModalState } from "../atoms";
+import SecondModal from "../components/SecondModal";
 
 function PostDetail() {
-  const detailData = useLocation().state;
+  const detailData = useLocation().state[0];
+  const beforeRouter = useLocation().state[1];
 
-  const state = useRecoilValue(modalState);
+  const apply = useRecoilValue(applyModalState);
+  const status = useRecoilValue(statusModalState);
+  console.log(useLocation());
 
   return(
     <>
       <Header />
       <PostDetailImg detailData={detailData}/>
-      <PostDetailContent detailData={detailData} />
-      {state ? <PostModal /> : <></>}
+      <PostDetailContent detailData={detailData} beforeRouter={beforeRouter}/>
+      {apply ? <PostModal /> : <></>}
+      {status ? <SecondModal /> : <></>}
     </>
   )
 }
