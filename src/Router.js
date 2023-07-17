@@ -4,6 +4,7 @@ import Analytics from "./pages/Analytics";
 import AnalyticsIng from "./pages/AnalyticsIng";
 import Place from "./pages/Place";
 import Post from "./pages/Post";
+import PostDetail from "./pages/PostDetail";
 import Chat from "./pages/Chat";
 import Move from "./pages/Move";
 
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: '/place',
     element: <Place/>
+  },
+  {
+    path: '/post-detail',
+    element: <PostDetail/>
   },
   {
     path: '/chat',
