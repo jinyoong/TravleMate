@@ -1,10 +1,16 @@
 import React from "react";
 import { useRecoilState } from "recoil";
-import { modalState } from "../atoms";
+import { applyModalState, statusModalState } from "../atoms";
 
 function PostModal() {
 
-  const [state, setState] = useRecoilState(modalState);
+  const [apply, setApply] = useRecoilState(applyModalState);
+  const [status, setStatus] = useRecoilState(statusModalState);
+
+  function clickEvent() {
+    setApply(false);
+    setStatus(false);
+  }
 
   return (
     <>
@@ -13,7 +19,7 @@ function PostModal() {
         <div className="font-bold text-lg">신청이 완료되었습니다.</div>
         <button 
           className="bg-gradient-to-r from-[#8449f5] to-[#6ad3cd] rounded-lg w-[120px] h-[30px] text-white font-bold"
-          onClick={() => setState(!state)}
+          onClick={() => clickEvent()}
         >
             나가기
         </button>

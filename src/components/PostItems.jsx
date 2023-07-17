@@ -32,7 +32,7 @@ function PostItems() {
       <hr />
       <div className="h-[469px] overflow-auto scroll-pr-[-20px]">
       {postDatas.map((postData, index) => {
-        return <PostItem key={index} postData={postData}/>
+        return <PostItem key={index} postData={postData} beforeRouter={"postItem"}/>
       })}
       </div>
     </div>

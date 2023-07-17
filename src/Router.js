@@ -7,6 +7,7 @@ import Post from "./pages/Post";
 import PostDetail from "./pages/PostDetail";
 import Chat from "./pages/Chat";
 import Move from "./pages/Move";
+import MyPage from "./pages/MyPage";
 
 
 const router = createBrowserRouter([
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
     path: '/analytics/ing',
     element: <AnalyticsIng />
   },
+  {
+    path: '/mypage',
+    element: <MyPage />
+  }
 ])
 
 export default router;
