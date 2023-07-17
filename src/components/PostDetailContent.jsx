@@ -1,10 +1,21 @@
 import React from "react";
 import { useRecoilState } from "recoil";
-import { modalState } from "../atoms";
+import { applyModalState, statusModalState } from "../atoms";
 
-function PostDetailContent({detailData}) {
+function PostDetailContent({detailData, beforeRouter}) {
 
-  const [state, setState] = useRecoilState(modalState);
+  const [apply, setApply] = useRecoilState(applyModalState);
+  const [status, setStatus] = useRecoilState(statusModalState);
+
+  function clickEvent() {
+    if (beforeRouter === "mypage") {
+      setStatus(!status);
+      setApply(false);
+    } else {
+      setApply(!apply);
+      setStatus(false);
+    }
+  }
 
   return (
     <div className="w-[300px] mt-[35px] ml-[30px] flex flex-col">
@@ -62,14 +73,10 @@ function PostDetailContent({detailData}) {
       <button
         className="drop-shadow-lg w-[300px] h-[35px] text-white text-center text-[15px] mt-[20px] bg-gradient-to-r
 from-[#8449f5] to-[#6ad3cd] rounded-lg"
-        onClick={() => setState(!state)}
+        onClick={() => clickEvent()}
       >
-        신청하기
+        {beforeRouter === "mypage" ? "신청현황" : "신청하기"}
       </button>
-      {/* <div className="drop-shadow-lg w-[300px] h-[35px] text-white text-center text-[15px] mt-[20px] bg-gradient-to-r
-from-[#8449f5] to-[#6ad3cd] rounded-lg">
-        <button onClick={() => setState(!state)} className="mt-[6px]">신청하기</button>
-      </div> */}
     </div>
   )
 }

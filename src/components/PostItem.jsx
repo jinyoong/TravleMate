@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-function PostItem({postData}) {
+function PostItem({postData, beforeRouter}) {
   const navigate = useNavigate();
 
   return(
@@ -9,7 +9,7 @@ function PostItem({postData}) {
       className="border-solid border-[1.5px] border-gray-200 rounded-[15px] drop-shadow-md flex mt-[10px] p-[5px] h-[90px]"
       onClick={() => {
         navigate("/post-detail", {
-          state: postData,
+          state: [postData, beforeRouter],
         })
       }}
     >
