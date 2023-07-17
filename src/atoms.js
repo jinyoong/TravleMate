@@ -1,0 +1,21 @@
+import { atom } from 'recoil';
+import { recoilPersist } from 'recoil-persist';
+
+const { persistAtom } = recoilPersist();
+
+const tempState = atom({
+  key: 'tempState',
+  default: 'default',
+  effects_UNSTABLE: [persistAtom],
+})
+
+const temp2State = atom({
+  key: 'temp2State',
+  default: 'default',
+  effects_UNSTABLE: [persistAtom],
+})
+
+export {
+  tempState,
+  temp2State
+}

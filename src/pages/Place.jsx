@@ -1,13 +1,14 @@
 import React from "react";
 
-function Home() {
+function Place() {
   return(
     <>
       <div>
         어아럼ㄴ이ㅏㄹㄴ이라ㅓㅁㄴㅇㄹ
       </div>
+      <div>agasdfasdf</div>
     </>
   )
 }
 
-export default Home
+export default Place
