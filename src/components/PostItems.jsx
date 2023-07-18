@@ -1,6 +1,7 @@
 import React from "react";
 import { postDatas } from "./datas";
 import PostItem from "./PostItem";
+import Ad from "./Ad";
 
 function PostItems() {
 
@@ -34,6 +35,7 @@ function PostItems() {
       {postDatas.map((postData, index) => {
         return <PostItem key={index} postData={postData} beforeRouter={"postItem"}/>
       })}
+      <Ad />
       </div>
     </div>
   )

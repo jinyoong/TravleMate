@@ -24,7 +24,7 @@ function MyPageInfo() {
           </div>
           <div className="flex gap-[8px]">
             {myPageData.ch.map((element, index) => {
-              return <span key={`${element}-${index}`} className="w-[50px] h-[20px] text-white text-center text-[12px] mt-[2px] bg-[#8449F5] rounded-lg">{element}</span>
+              return <span key={`${element}-${index}`} className="w-[60px] h-[20px] text-white text-center text-[12px] mt-[2px] bg-[#8449F5] rounded-lg">{element}</span>
             })}
           </div>
           <div className="text-[14px] font-bold">{myPageData.sns}</div>
