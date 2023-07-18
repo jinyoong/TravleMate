@@ -100,7 +100,7 @@ const myPageData = {
 	"gender":"m",
 	"profile":"https://i.namu.wiki/i/mc0otKKHQaYIe-fmw4GBdlIvnRdBjVM4ynPyflPCA49IbfRpABOJK_JImqk7czRiwDwpfSsmAq3gQX7s3UsKVQ.webp",
 	"now":"2023.03.13 12:05",
-	"ch":["flex","flex","flex"],
+	"ch":["FLEX","적극적인","무계획"],
 	"intro":"안녕하세요 저는 익스트림 스포츠를 좋아합니다. 같이 여행 가실 분을 찾고 있습니다. 게획적인 여행을 선호하고 해외 여행이 처음이라 같이 가실 분을 구해요.",
 	"sns":"@hana_financial",
 	"tl":[["https://i.namu.wiki/i/uPDCkQv1zGpaEdmeqmEDRIM3nMyRD2BslQUouPpxpI5M-PkGdmxPwxFJvu9RCUUVYg2XOH4rfedfkxhnDqfumw.svg","2021.03.13 - 2021.03.20"],["https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg","2022.03.13 - 2022.03.20"],["https://i.namu.wiki/i/uPDCkQv1zGpaEdmeqmEDRIM3nMyRD2BslQUouPpxpI5M-PkGdmxPwxFJvu9RCUUVYg2XOH4rfedfkxhnDqfumw.svg","2022.06.13 - 2022.06.20"]]

@@ -12,16 +12,8 @@ function Place() {
   return(
     <>
       <Header />
-        <Toggle />
-      <div className="mx-[20px] rounded-[10px] flex items-center mt-[10px]">
-        <div className="text-white font-bold bg-[#844BF5] px-[4px] py-[1px] rounded-[10px] mr-[10px]">
-          10km
-        </div>
-        <div className="text-white font-bold bg-[#844BF5] px-[4px] py-[1px] rounded-[10px]">
-          남성
-        </div>
-      </div>
-      <div className="h-[515px] overflow-auto">
+      <Toggle />
+      <div className="h-[552px] overflow-auto">
 
       {data.map((item, index) => (
         <Placecard userData={item}/>
