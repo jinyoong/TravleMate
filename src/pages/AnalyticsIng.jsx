@@ -34,7 +34,7 @@ function AnalyticsIng() {
               <img src="../TravelMate.png" className="w-[200px] text-center"></img>
             </div>
             <div>
-                <div className="font-bold text-[20px] mx-[20px] mt-[110px]">
+                <div className="font-bold text-[20px] mx-[20px] mt-[20px]">
                     <div>당신과 다른 여행자를</div>
                     <div>연결중입니다.</div>
                 </div>
@@ -43,6 +43,10 @@ function AnalyticsIng() {
                     <div className="absolute right-0 pr-[3px] font-bold text-white">
                         {percent}%
                     </div>
+                </div>
+
+                <div className="flex justify-center">
+                  <img src="../AnalyticsIng.png" className="w-[250px] mt-[100px]"></img>
                 </div>
 
             </div>
