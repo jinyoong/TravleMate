@@ -10,7 +10,7 @@ function Analytics() {
     return(
         <>
             <div className="flex justify-center">
-            <img src="TravelMate.png" className="w-[200px] text-center"></img>
+            <img src="../TravelMate.png" className="w-[200px] text-center"></img>
 
             </div>
             <div>
